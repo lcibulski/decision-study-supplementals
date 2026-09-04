@@ -1,12 +1,16 @@
+if(!require(ggplot2)) install.packages("ggplot2")
 library(ggplot2)
+if(!require(gridExtra)) install.packages("gridExtra")
 library(gridExtra) # for side by side plots
+if(!require(patchwork)) install.packages("patchwork")
 library(patchwork) # for side-by-side plots
+if(!require(car)) install.packages("car")
 library(car) # for recoding scale responses
 
 # Clean up R's memory
 rm(list = ls()) 
 
-source("measures.R")
+source("helpers.R")
 
 # Read participant data (n=548)
 participants <- read.csv('../participants-raw.csv')
