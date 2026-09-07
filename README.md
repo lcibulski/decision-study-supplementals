@@ -23,6 +23,7 @@ All required libraries are automatically installed and loaded.
 
 To run the analysis, you need [R](https://cloud.r-project.org/) and [RStudio](https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads) (version >= 2026.07.1+147) installed.
 Open the ```./data-analysis/plannedAnalyses.R``` script in RStudio and run the entire document by pressing ```Ctrl+Shift+Enter``` (```Cmd+Shift+Enter``` on Mac) or using the "Source" button in the toolbar.
+If the files imported via relative paths cannot be found right away, you might need to set the working directory to the source file location. To do so, right-click the script tab and choose "Set Working Directory" from the context menu or choose "Session -> Set Working Directory -> To Source File Location" in the RStudio menubar.
 
 Numerical CI intervals (H1 to H4) and interquartile ranges (H5) as reported in Section V-A in the main paper are printed to the console. 
 The plots underlying Figure 4 are generated one by one. You can inspect the generated plots by opening "View -> Show Plots" and step through the plots with the forward and backward arrows.
