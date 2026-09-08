@@ -11,6 +11,7 @@ The following materials are available in this repository:
 - [Screen captures of interactive stimuli in questionnaire](interactive-stimuli/)
 - [Raw and preprocessed data](data/) (preprocessed participant responses contain accuracy scores for chosen items, attention score, training scores, and Mini-VLAT score as extracted from raw data)
 - [Data analysis scripts](data-analysis/) (planned analyses as reported in the main paper as well as planned and exploratory analyses as reported in the supplemental document)
+- [Manuscript preprint](Preprint.pdf)
 
 ## Reproducing the Results Reported in the Main Paper (Numbers in Section V-A + Figure 4)
 
